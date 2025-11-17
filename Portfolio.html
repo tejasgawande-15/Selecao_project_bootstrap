@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selecao Style Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+
+</head>
+
+<body>
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#">Selecao</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link  px-3 " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-3 rounded-pill text-white bg-orange" href="Portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <section class="hero text-center d-flex align-items-center justify-content-center">
+    <div id="heroCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="fw-bold fade-in-delay1">Welcome to Portfolio</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Wave Shape -->
+    <div class="waves">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path class="wave wave1" d="M0,49 C150,150 350,0 600,49 C850,100 1050,50 1200,49 L1200,120 L0,120 Z"></path>
+        <path class="wave wave2" d="M0,60 C150,180 350,20 600,60 C850,100 1050,60 1200,60 L1200,120 L0,120 Z"></path>
+        <path class="wave wave3" d="M0,70 C150,200 350,40 600,70 C850,100 1050,70 1200,70 L1200,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="portfolio-section py-5">
+    <div class="container">
+
+      <!-- Section Title -->
+      <div class="mb-5" data-aos="fade-up">
+        <h6 class="text-uppercase text-muted fw-bold">Portfolio</h6>
+        <h2 class="fw-bold section-title">What We've Done</h2>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="150">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">App</button>
+        <button class="filter-btn">Card</button>
+        <button class="filter-btn">Web</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item app" data-aos="fade-up">
+          <img src="img/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item card" data-aos="fade-up" data-aos-delay="100">
+          <img src="img/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item web" data-aos="fade-up" data-aos-delay="200">
+          <img src="img/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item app" data-aos="fade-up" data-aos-delay="300">
+          <img src="img/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item card" data-aos="fade-up" data-aos-delay="400">
+          <img src="img/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item web" data-aos="fade-up" data-aos-delay="500">
+          <img src="img/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item app" data-aos="fade-up" data-aos-delay="600">
+          <img src="img/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item card" data-aos="fade-up" data-aos-delay="700">
+          <img src="img/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+        </div>
+
+        <div class="portfolio-item web" data-aos="fade-up" data-aos-delay="800">
+          <img src="img/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+   <!-- FOOTER SECTION -->
+  <footer class="footer-section text-center text-white py-5">
+
+    <h2 class="fw-bold mb-3">Selecao</h2>
+
+    <p class="footer-text mb-4 px-3">
+      Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+    </p>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center gap-3 mb-5">
+      <a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="footer-icon"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="footer-icon"><i class="bi bi-skype"></i></a>
+      <a href="#" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <hr class="footer-line">
+
+    <p class="mt-4 mb-0">
+      Copyright <strong>Selecao</strong> All Rights Reserved
+    </p>
+
+    <p class="mt-1">
+      Designed by <a href="#" class="text-orange fw-bold text-decoration-none">BootstrapMade</a>
+      Distributed By <a href="#" class="text-orange fw-bold text-decoration-none">ThemeWagon</a>
+    </p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+      easing: "ease-out"
+    });
+  </script>
+</body>
+
+</html>
